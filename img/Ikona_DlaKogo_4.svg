@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 166 150" style="enable-background:new 0 0 166 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#2D00FF;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#2D00FF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:#2D00FF;stroke:#2D00FF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Group_182" transform="translate(-2889.662 -440.915)">
+	<path id="Path_5038" class="st0" d="M2934,508v25.8c0,3.3-2.7,6-6,6l0,0c-3.3,0-6-2.7-6-6V508c-17.4-3.3-28.8-20.1-25.5-37.5
+		s20.1-28.8,37.5-25.5c17.4,3.3,28.8,20.1,25.5,37.5C2957.1,495.4,2946.9,505.5,2934,508z"/>
+	<line id="Line_291" class="st0" x1="2922" y1="508" x2="2927.2" y2="508"/>
+	<path id="Path_5039" class="st1" d="M2918.8,467.2c0-5.1,4.1-9.2,9.2-9.2s9.2,4.1,9.2,9.2c0,3.4-1.9,6.5-4.8,8.1
+		c-2.7,1.5-4.4,4.4-4.3,7.5v3.7"/>
+	<path id="Path_5040" class="st2" d="M2929.1,493.2c0,0.6-0.5,1.1-1.1,1.1c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1
+		c0,0,0,0,0,0C2928.6,492.1,2929.1,492.6,2929.1,493.2z"/>
+	<g id="Group_181" transform="translate(2997.279 513.781)">
+		<line id="Line_292" class="st0" x1="11" y1="26.5" x2="24.8" y2="1.5"/>
+		<path id="Path_5041" class="st0" d="M27.4,26.5L27.4,26.5c-2.5,0-4.5-2-4.5-4.4c0,0,0,0,0,0V19c0-2.5,2-4.5,4.4-4.5c0,0,0,0,0,0
+			l0,0c2.5,0,4.4,2,4.4,4.5v3.1C31.9,24.5,29.9,26.5,27.4,26.5z"/>
+		<path id="Path_5042" class="st0" d="M8.7,13.5L8.7,13.5c-2.5,0-4.5-2-4.5-4.5V5.9c0-2.5,2-4.5,4.5-4.5l0,0c2.5,0,4.5,2,4.5,4.5V9
+			C13.2,11.5,11.2,13.5,8.7,13.5z"/>
+	</g>
+	<path id="Path_5043" class="st1" d="M2966.9,578.1v-68.9h20.6v68.9"/>
+	<path id="Path_5044" class="st1" d="M2946.4,577.8V532h20.6"/>
+	<path id="Path_5045" class="st1" d="M2987.5,550h20.6v27.8"/>
+	<path id="Path_5046" class="st1" d="M2928,578.3h112.3v-87.1"/>
+	<path id="Path_5047" class="st1" d="M3031.2,491.8l9.1-9.1l9.1,9.1"/>
+	<path id="Path_5048" class="st1" d="M2928,587.5l-9.1-9.1l9.1-9.1"/>
+</g>
+</svg>

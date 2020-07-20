@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 917 307" style="enable-background:new 0 0 917 307;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Path_5140_1_);}
+	.st1{fill:url(#Path_5141_1_);}
+	.st2{fill:#2D00FF;}
+</style>
+<g id="Group_313" transform="translate(0)">
+	
+		<linearGradient id="Path_5140_1_" gradientUnits="userSpaceOnUse" x1="229.747" y1="418.4347" x2="229.161" y2="417.9077" gradientTransform="matrix(443.514 0 0 -305.52 -101515.9766 127904.1484)">
+		<stop  offset="0" style="stop-color:#2D00FF"/>
+		<stop  offset="0.4" style="stop-color:#1B1464"/>
+		<stop  offset="0.6" style="stop-color:#1B1464"/>
+		<stop  offset="1" style="stop-color:#2D00FF"/>
+	</linearGradient>
+	<path id="Path_5140" class="st0" d="M429.8,32.3v1.4L444.3,59C326,77.7,318.6,306.6,153.1,306.6c-78.3,0-144-59.1-152.2-136.9
+		l29.4-15.3l28.6,15.4c7.9,45.9,47.7,79.4,94.3,79.4c128.1,0,132-234.3,291.3-248.1L429.8,32.3z"/>
+	
+		<linearGradient id="Path_5141_1_" gradientUnits="userSpaceOnUse" x1="229.617" y1="418.3721" x2="229.031" y2="417.8481" gradientTransform="matrix(441.4409 0 0 -305.383 -100565.1719 127846.0313)">
+		<stop  offset="0" style="stop-color:#2D00FF"/>
+		<stop  offset="0.4" style="stop-color:#1B1464"/>
+		<stop  offset="0.6" style="stop-color:#1B1464"/>
+		<stop  offset="1" style="stop-color:#2D00FF"/>
+	</linearGradient>
+	<path id="Path_5141" class="st1" d="M886.9,153.1l-28.5-15c-7.5-46.1-47.2-80.1-94-80.3c-128.4,1-133,232.7-288.9,248l16.3-31.1
+		l-17-26.7C591.1,229.1,598.4,1.6,764,0.4v0c0.2,0,0.4,0,0.6,0c0.2,0,0.5,0,0.7,0v0c77.9,0.7,142.9,59.7,151,137.2L886.9,153.1z"/>
+	<path id="Path_5142" class="st2" d="M474.3,276.3l-16.7,30.3C285.3,304.9,284.6,57.8,153.1,57.8c-52.8,0-95.7,42.8-95.7,95.7
+		l-28.2-15.2L0,153.5C0,69,68.5,0.4,153.1,0.4c0,0,0,0,0,0c171.5,0,173.2,245.7,304.4,248.7L474.3,276.3z"/>
+	<g id="Group_312" transform="translate(429.715 0.038)">
+		<path id="Path_5143" class="st2" d="M0,32L0.5,33L0,33.9V32z"/>
+		<path id="Path_5144" class="st2" d="M335.5,306.5L335.5,306.5c-0.2,0-0.5,0-0.7,0c-0.2,0-0.4,0-0.6,0v0
+			C162.6,305.3,161,61,31.9,57.8L18.1,31.4L32.7,0.4c168.8,3.2,170.1,247.7,302,248.7c51.9-0.3,94.1-41.8,95.2-93.7l28.9,15.2
+			l28.5-15C486.1,238.8,418.7,305.8,335.5,306.5z"/>
+	</g>
+</g>
+</svg>
