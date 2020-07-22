@@ -436,7 +436,8 @@ header {
       margin-right: 0; }
       @media (max-width: 991.98px) {
         .reasons-2 .wrapper .wrapper-row:nth-last-of-type(even) .left {
-          order: initial; } }
+          order: initial;
+          margin-left: 0px; } }
     .reasons-2 .wrapper .wrapper-row:nth-last-of-type(even) .right {
       order: 1;
       text-align: right;
@@ -632,6 +633,9 @@ header {
         @media (max-width: 767.98px) {
           .infinite .diagram .wrapper .infinity-wrapper {
             margin: 0; } }
+        .infinite .diagram .wrapper .infinity-wrapper img {
+          position: relative;
+          z-index: 3; }
         .infinite .diagram .wrapper .infinity-wrapper .sectors {
           position: absolute;
           display: flex;
@@ -938,7 +942,10 @@ header {
           background-image: url(../img/minus.png);
           background-size: 12px;
           background-position: center;
-          background-repeat: no-repeat; }
+          background-repeat: no-repeat;
+          cursor: pointer; }
+          .digital-elements .column-form .choices-form .choice .remove:hover {
+            opacity: .8; }
       .digital-elements .column-form .choices-form .line {
         margin-top: 20px;
         margin-bottom: 16px; }

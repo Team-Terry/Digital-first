@@ -532,6 +532,7 @@
                         margin-right: 0;
                         @media (max-width: $md){
                             order: initial;
+                            margin-left: 0px;
                         }
                     }
                     .right {
@@ -763,6 +764,10 @@
                     margin: 0px -30px;
                     @media (max-width: $sm){
                        margin: 0;
+                    }
+                    img {
+                        position: relative;
+                        z-index: 3;
                     }
                     .sectors {
                         position: absolute;
@@ -1128,6 +1133,10 @@
                     background-size: 12px;
                     background-position: center;
                     background-repeat: no-repeat;
+                    cursor: pointer;
+                    &:hover {
+                        opacity: .8;
+                    }
                 }
             }
             .line {

@@ -524,17 +524,17 @@
                 <div class="col col-12 col-lg-3 col-sm-6">
                     <div class="column">
                         <span class="title">Twórz</span>
-                        <div class="service">
+                        <div class="service" id="service-1">
                             <div class="name">Product Creation</div>
                             <div class="description">Przygotowanie Twojego produktu do obecności digital.</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-2">
                             <div class="name">Content Creation</div>
                             <div class="description">Stworzenie treści na potrzeby dowolnego kanału digital</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-3">
                             <div class="name">Visual Communication</div>
                             <div class="description">Zaplanowanie i stworzenie materiałów graficznych niezbędnych do kampanii digital</div>
                             <button class="add"></button>
@@ -544,17 +544,17 @@
                 <div class="col col-12 col-lg-3 col-sm-6">
                     <div class="column">
                         <span class="title">Poznawaj</span>
-                        <div class="service">
+                        <div class="service" id="service-4">
                             <div class="name">Content Machine</div>
                             <div class="description">Zautomatyzowana kompleksowa strategia tworzenia contentu w oparciu o storytelling</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-5">
                             <div class="name">Social Media Strategy</div>
                             <div class="description">Spójna egzekucja strategii komunikacji we wszystkich kanałach Social Media</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-6">
                             <div class="name">Influence Marketing</div>
                             <div class="description">Spójna egzekucja strategii komunikacji we wszystkich kanałach Social Media</div>
                             <button class="add"></button>
@@ -564,17 +564,17 @@
                 <div class="col col-12 col-lg-3 col-sm-6">
                     <div class="column">
                         <span class="title">Docieraj</span>
-                        <div class="service">
+                        <div class="service" id="service-7">
                             <div class="name">Sales Funnel Strategy</div>
                             <div class="description">Stworzenie lejków porządkujących sprzedaż i komunikację na każdym jej etapie</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-8">
                             <div class="name">Growth Strategy</div>
                             <div class="description">Kompleksowa strategia marketingowa mająca na celu długofalowy i ciągły wzrost sprzedaży</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-9">
                             <div class="name">Campaign Media Buying</div>
                             <div class="description">Efektywnościowy mediaplanning wraz z egzekucją kampanii</div>
                             <button class="add"></button>
@@ -585,30 +585,16 @@
                     <div class="column-form">
                         <div class="title">Twoje wybory</div>
                         <form action="" class="choices-form">
-                            <div class="choice">
-                                <div class="name">
-                                    Product Creation
-                                </div>
-                                <button class="remove"></button>
+                            <div class="choices">
+         <!--                        <div class="choice">
+                                    <div class="name">
+                                        Product Creation
+                                    </div>
+                                    <div class="remove"></div>
+                                </div> -->
+
                             </div>
-                            <div class="choice">
-                                <div class="name">
-                                    Content Machine
-                                </div>
-                                <button class="remove"></button>
-                            </div>
-                            <div class="choice">
-                                <div class="name">
-                                    Sales Funnel Strategy
-                                </div>
-                                <button class="remove"></button>
-                            </div>
-                            <div class="choice">
-                                <div class="name">
-                                    Visual Communication
-                                </div>
-                                <button class="remove"></button>
-                            </div>
+
                             <div class="line"></div>
                             <div class="subtitle">Twoje dane kontaktowe</div>
                             <input type="text" placeholder="Imię*" required>
@@ -620,17 +606,17 @@
                 <div class="col col-12 col-lg-9">
                     <div class="column column-horizontal">
                         <span class="title">Powtarzaj</span>
-                        <div class="service">
+                        <div class="service" id="service-10">
                             <div class="name">Marketing Automation</div>
                             <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit donec vel odio ex</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-11">
                             <div class="name">CRM</div>
                             <div class="description">Budowanie, utrzymanie, zarządzanie oraz poprawa relacji z klientem.</div>
                             <button class="add"></button>
                         </div>
-                        <div class="service">
+                        <div class="service" id="service-12">
                             <div class="name">Analityka</div>
                             <div class="description">Podejmowanie decyzji w oparciu o analizę danych i statystyk.</div>
                             <button class="add"></button>
@@ -988,6 +974,35 @@ $('a[href*="#"]').on('click', function (e) {
     'linear'
   )
 });
+  
+
+
+$('.service .add').on('click', function() {
+    var name = $(this).prev().prev().text();
+    var id = $(this).parent().attr('id');
+    var choiceContainer = $('.choices');
+
+    var newId = id+'A';
+    var newIdSelector = '.choices #'+id+'A';
+
+
+    //alert(newId);
+
+    //alert(myarr[0]);
+    if (!($(newIdSelector).length)) {
+        choiceContainer.append( '<div class="choice" id="'+ id +'A"><div class="name">'+ name +'</div><div class="remove"></div></div>' );
+    }
+
+    
+$('.choices .remove').on('click', function(){
+    $(this).parent().remove();
+});
+
+});
+
+
+
+
 
 $('.full-slider').slick({
   infinite: true,
