@@ -10,7 +10,7 @@
     $color-theme: #2D00FF;
     
     /* Font/text values */
-    $font-family-primary: "proxima-nova";
+    $font-family-primary: "proxima-nova", sans-serif;
     $font-family-secondary: "termina";
     $font-style-primary: Semibold;
     $font-size-primary: 14px;
@@ -1805,13 +1805,20 @@ footer {
     line-height: 19px;
     display: flex;
     align-items: center;
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
     .logo {
         position: absolute;
-        margin-left: 40px;
+        top: 50%;
+        left: 40px;
         transform: translateY(-50%);
-        margin-top: 30px;
-        @media (max-width: $lg){
+        margin-right: 10%;
+        @media (max-width: 1400px){
+            margin-left: 0;
             position: static;
+            transform: initial;
         }
     }
 }

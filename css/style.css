@@ -6,7 +6,7 @@
 /* Font/text values */
 /* Character Styles */
 .unnamed-character-style-1 {
-  font-family: "proxima-nova";
+  font-family: "proxima-nova", sans-serif;
   font-style: Semibold;
   font-size: 14px;
   line-height: 17px;
@@ -19,7 +19,7 @@
   100% {
     transform: rotate(360deg); } }
 body {
-  font-family: "proxima-nova";
+  font-family: "proxima-nova", sans-serif;
   font-weight: 400; }
 
 .wrapper {
@@ -1479,13 +1479,19 @@ footer {
   line-height: 19px;
   display: flex;
   align-items: center; }
+  footer .wrapper {
+    display: flex;
+    align-items: center; }
   footer .logo {
     position: absolute;
-    margin-left: 40px;
+    top: 50%;
+    left: 40px;
     transform: translateY(-50%);
-    margin-top: 30px; }
-    @media (max-width: 1199.98px) {
+    margin-right: 10%; }
+    @media (max-width: 1400px) {
       footer .logo {
-        position: static; } }
+        margin-left: 0;
+        position: static;
+        transform: initial; } }
 
 /*# sourceMappingURL=style.css.map */
