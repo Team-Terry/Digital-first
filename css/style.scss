@@ -284,6 +284,7 @@
                     &.active {
                         left: -26px;
                         font-weight: 700;
+                        color: $color-theme;
                         &::before {
                             content: '';
                             position: absolute;
@@ -322,6 +323,9 @@
                 width: 300px;
                 a {
                     padding-left: 20px;
+                    
+                }
+                a:hover {
                     color: $color-theme;
                 }
                 a .content {
